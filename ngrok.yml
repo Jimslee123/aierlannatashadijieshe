@@ -1,0 +1,7 @@
+version: 2
+authtoken: your_ngrok_auth_token
+tunnels:
+  website:
+    proto: http
+    addr: 80
+    host_header: aierlannatashadijieshe.com 

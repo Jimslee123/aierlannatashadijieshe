@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爱尔兰娜塔莎地接社 - 专业爱尔兰旅游服务</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- 网站图标 -->
+    <link rel="icon" type="image/x-icon" href="https://aierlannatashadijieshe.com/favicon.ico">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="compass-icon">🧭</span>
+            <span class="logo-text">爱尔兰娜塔莎地接社</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home">首页</a>
+            <a href="#routes">旅游线路</a>
+            <a href="#gallery">景点图片</a>
+            <a href="#contact">联系我们</a>
+        </div>
+        <div class="lang-switch">
+            <button class="lang-btn">中/EN</button>
+        </div>
+    </nav>
+
+    <!-- 首屏视差区 -->
+    <section id="home" class="hero">
+        <div class="particles-bg"></div>
+        <div class="hero-content">
+            <div class="globe-container">
+                <!-- 3D地球仪将通过Three.js实现 -->
+            </div>
+            <h1 class="hero-text">探索爱尔兰的奇幻之旅</h1>
+            <div class="scroll-indicator">
+                <span class="arrow">↓</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 旅游线路 -->
+    <section id="routes" class="routes">
+        <h2 class="section-title">精选旅游线路</h2>
+        <div class="route-content">
+            <div class="route-day">
+                <h3>第1天：抵达都柏林</h3>
+                <ul>
+                    <li>上午：抵达都柏林机场，入住酒店</li>
+                    <li>下午：参观圣三一学院及《凯尔经》展览</li>
+                    <li>晚上：在Temple Bar区体验夜生活</li>
+                </ul>
+            </div>
+            <div class="route-day">
+                <h3>第2天：都柏林城市游</h3>
+                <ul>
+                    <li>上午：参观都柏林城堡和圣帕特里克大教堂</li>
+                    <li>下午：游览吉尼斯啤酒厂，俯瞰城市全景</li>
+                    <li>晚上：在市区享用晚餐</li>
+                </ul>
+            </div>
+            <div class="route-day">
+                <h3>第3天：都柏林 - 基拉尼</h3>
+                <ul>
+                    <li>上午：乘车前往基拉尼（约3.5小时）</li>
+                    <li>下午：游览基拉尼国家公园和罗斯城堡</li>
+                    <li>晚上：入住基拉尼酒店</li>
+                </ul>
+            </div>
+            <div class="route-day">
+                <h3>第4天：基拉尼 - 丁格尔半岛</h3>
+                <ul>
+                    <li>上午：前往丁格尔半岛（约1.5小时），沿途欣赏风景</li>
+                    <li>下午：游览丁格尔镇和斯莱角</li>
+                    <li>晚上：入住丁格尔酒店</li>
+                </ul>
+            </div>
+            <div class="route-day">
+                <h3>第5天：丁格尔半岛 - 莫赫悬崖 - 高威</h3>
+                <ul>
+                    <li>上午：前往莫赫悬崖（约2小时），欣赏大西洋景色</li>
+                    <li>下午：乘车前往高威（约1.5小时），游览高威市区</li>
+                    <li>晚上：入住高威酒店</li>
+                </ul>
+            </div>
+            <div class="route-day">
+                <h3>第6天：高威 - 康尼马拉 - 高威</h3>
+                <ul>
+                    <li>上午：游览康尼马拉国家公园，体验荒野风光</li>
+                    <li>下午：参观凯尔莫尔修道院</li>
+                    <li>晚上：返回高威，享用晚餐</li>
+                </ul>
+            </div>
+            <div class="route-day">
+                <h3>第7天：高威 - 都柏林</h3>
+                <ul>
+                    <li>上午：乘车返回都柏林（约2.5小时）</li>
+                    <li>下午：自由购物或参观其他景点</li>
+                    <li>晚上：前往机场，结束行程</li>
+                </ul>
+            </div>
+        </div>
+        <div class="route-tips">
+            <h3>温馨提示</h3>
+            <ul>
+                <li>交通：建议租车自驾，方便灵活</li>
+                <li>住宿：提前预订，尤其在旅游旺季</li>
+                <li>天气：爱尔兰天气多变，建议携带防水外套</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 照片墙 -->
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">景点图片</h2>
+        <div class="filter-bar">
+            <button class="filter-btn active">全部</button>
+            <button class="filter-btn">都柏林</button>
+            <button class="filter-btn">基拉尼</button>
+            <button class="filter-btn">丁格尔</button>
+            <button class="filter-btn">高威</button>
+        </div>
+        <div class="gallery-grid">
+            <!-- 照片将通过JavaScript动态加载 -->
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">联系我们</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">💬</div>
+                    <div class="contact-details">
+                        <h3>微信</h3>
+                        <p>Jimslee614525192</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-details">
+                        <h3>小红书</h3>
+                        <p>请搜索：爱尔兰潮汕人</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🎵</div>
+                    <div class="contact-details">
+                        <h3>抖音</h3>
+                        <p>请搜索：乌克兰潮汕人</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>在线咨询</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="电子邮箱" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="请输入您的留言" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI对话模块 -->
+    <div class="chat-widget">
+        <button class="chat-toggle">
+            <span class="paper-plane">✈️</span>
+        </button>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>爱尔兰旅游顾问</h3>
+                <button class="close-chat">×</button>
+            </div>
+            <div class="chat-messages"></div>
+            <div class="chat-input">
+                <textarea placeholder="咨询爱尔兰旅游相关问题..."></textarea>
+                <button class="send-btn">发送</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 社交链接 -->
+    <div class="social-links">
+        <a href="#contact" class="social-icon wechat" title="微信：Jimslee614525192">💬</a>
+        <a href="#contact" class="social-icon douyin" title="抖音：乌克兰潮汕人">🎵</a>
+        <a href="#contact" class="social-icon xiaohongshu" title="小红书：爱尔兰潮汕人">📱</a>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="seasonal-footer">
+        <div class="seasons">
+            <div class="season spring">春</div>
+            <div class="season summer">夏</div>
+            <div class="season autumn">秋</div>
+            <div class="season winter">冬</div>
+        </div>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>联系我们</h3>
+                <div class="contact-links">
+                    <a href="#contact" class="contact-link">
+                        <span class="contact-icon">💬</span>
+                        <span>微信：Jimslee614525192</span>
+                    </a>
+                    <a href="#contact" class="contact-link">
+                        <span class="contact-icon">📱</span>
+                        <span>小红书：爱尔兰潮汕人</span>
+                    </a>
+                    <a href="#contact" class="contact-link">
+                        <span class="contact-icon">🎵</span>
+                        <span>抖音：乌克兰潮汕人</span>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2024 爱尔兰娜塔莎地接社 | <a href="http://aierlannatashadijieshe.com" class="website-link">aierlannatashadijieshe.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 脚本引用 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html> 
